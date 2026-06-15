@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Vazirmatn:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headings: "Vazirmatn", "Poppins", sans-serif;
+  
+  --color-coffee-950: #2b1a10;
+  --color-coffee-900: #3e271a;
+  --color-coffee-800: #543725;
+  --color-coffee-700: #6F4E37; /* Primary Coffee Brown */
+  --color-coffee-600: #8c654b;
+  --color-coffee-500: #a77f64;
+  --color-coffee-200: #d6beae;
+  --color-coffee-100: #ebdcd3;
+  --color-coffee-50: #f6f1ee;
+
+  --color-cream-900: #cbb8a2;
+  --color-cream-800: #dccebd;
+  --color-cream-700: #ebdcd3;
+  --color-cream-600: #f0e6da;
+  --color-cream-100: #F5E6D3; /* Secondary Cream */
+  --color-cream-50: #FAF4EB; /* Main Light BG Cream Accent */
+
+  --color-sky-primary: #0BA0DB; /* Accent Sky Blue */
+  --color-sky-hover: #0782b5;
+  --color-sky-light: #e4f5fc;
+}
+
+/* Custom Base Utilities or Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-50);
+  color: var(--color-coffee-950);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headings);
+}
+
+.geometric-border {
+  border: 1.5px solid #6F4E37;
+}
+
+.geometric-border-dashed {
+  border: 1.5px dashed #6F4E37;
+}
+
+.accent-line {
+  height: 4px;
+  width: 60px;
+  background-color: #0BA0DB;
+  margin-bottom: 12px;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "CafeNo",
+  "description": "A modern, minimalist, warm coffee-inspired coffee shop website showcasing products, brand story, special offers, and contact forms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
